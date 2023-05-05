@@ -1,0 +1,52 @@
+{
+    "monthly_shipping_table": [
+        {
+            "column_name": "shipping_month",
+            "data_type": "int",
+            "column_position": 1
+        },
+        {
+            "column_name": "shipping_zip_code",
+            "data_type": "str",
+            "column_position": 2
+        }
+    ],
+
+    "pld_table": [
+        {
+            "column_name": "order_count",
+            "data_type": "int",
+            "column_position": 1
+        },
+        {
+            "column_name": "origin_zip_code",
+            "data_type": "str",
+            "column_position": 2
+        },
+        {
+            "column_name": "destination_zip_code",
+            "data_type": "str",
+            "column_position": 3
+        },
+        {
+            "column_name": "package_length",
+            "data_type": "float",
+            "column_position": 4
+        },
+        {
+            "column_name": "package_width",
+            "data_type": "float",
+            "column_position": 5
+        },
+        {
+            "column_name": "package_height",
+            "data_type": "float",
+            "column_position": 6
+        },
+        {
+            "column_name": "package_weight_oz",
+            "data_type": "float",
+            "column_position": 7
+        }
+    ]
+}
